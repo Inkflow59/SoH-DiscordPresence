@@ -1,0 +1,8 @@
+# .env files
+.env
+.env.local
+
+# Build files
+build/
+dist/
+SoHDiscordPresence.spec
