@@ -41,7 +41,7 @@ build.bat
 or manually:
 
 ```bash
-pyinstaller --onefile --windowed --name=SoHDiscordPresence main.py
+pyinstaller --onefile --windowed --icon=assets\icon.ico --add-data "assets;assets" --name=SoHDiscordPresence main.py
 ```
 
 The executable will be in the `dist` folder.
