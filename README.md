@@ -11,14 +11,16 @@ A Python program that automatically displays Discord Rich Presence when Ship of 
 
 ## Setup Instructions
 
-### 1. Create a Discord Application
+### 1. Create a Discord Application (Optional)
+
+The application is already configured with a Discord Application ID. If you want to use your own:
 
 1. Go to https://discord.com/developers/applications
 2. Click "New Application"
 3. Name it "The Legend of Zelda: Ocarina of Time" or similar
-4. Go to "Rich Presence" → "Art Assets" and upload an icon (optional)
+4. Go to "Rich Presence" → "Art Assets" and upload an icon (optional - use `assets/icon.png`)
 5. Copy your Application ID from the "General Information" tab
-6. Open `main.py` and replace `YOUR_CLIENT_ID_HERE` with your Application ID
+6. Open `main.py` and replace the `CLIENT_ID` value with your Application ID
 
 ### 2. Install Dependencies
 
