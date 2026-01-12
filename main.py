@@ -6,13 +6,8 @@ import pystray
 from PIL import Image, ImageDraw
 import sys
 import os
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-
-# Discord Application ID - You'll need to create one at https://discord.com/developers/applications
-CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_ID = 1460185850649514138
 
 class SoHDiscordPresence:
     def __init__(self):
